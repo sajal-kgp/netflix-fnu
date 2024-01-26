@@ -10,9 +10,6 @@ function Nav() {
         handleShow(true);
       } else handleShow(false);
     });
-    // return () => {
-    //   window.removeEventListener("scroll");
-    // };
   }, []);
 
   return (
