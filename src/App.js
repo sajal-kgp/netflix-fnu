@@ -14,7 +14,7 @@ function App() {
     { id: 5, title: "Comedy Movies", endUrl: request.fetchComedyMovies },
     { id: 6, title: "Horror Movies", endUrl: request.fetchHorroMovies },
     { id: 7, title: "Romance Movies", endUrl: request.fetchRomanceMovies },
-    { id: 7, title: "Documentries", endUrl: request.fetchDocumentaries },
+    { id: 8, title: "Documentries", endUrl: request.fetchDocumentaries },
   ];
 
   const rows = rowData.map((data) => (
