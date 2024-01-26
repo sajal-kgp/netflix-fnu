@@ -11,12 +11,4 @@ const request = {
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
 
-// export const rowData = [
-//   { id: 1, title: "Netflix Original", endUrl: request.fetchNetflixOrigin },
-//   { id: 2, title: "Trending Now", endUrl: request.fetchTrending },
-//   { id: 3, title: "Top Rated", endUrl: request.fetchTopRated },
-//   { id: 4, title: "Action Movies", endUrl: request.fetchActionMovies },
-//   { id: 5, title: "Comedy Movies", endUrl: request.fetchComedyMovies },
-// ];
-
 export default request;
