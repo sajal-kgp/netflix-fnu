@@ -5,10 +5,6 @@ import Row from "./row";
 import Banner from "./Banner";
 import Nav from "./Nav";
 
-// 6a3a8438ff404196f75474de75e61aeb
-
-// api_access_token = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YTNhODQzOGZmNDA0MTk2Zjc1NDc0ZGU3NWU2MWFlYiIsInN1YiI6IjY1YjMzZTMzNTc1MzBlMDE0N2Q5MzJlMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jp1axe0zGbvberyJ2DcP-gJjf9jLvrVSoeHouD2fQck;
-
 function App() {
   const rowData = [
     { id: 1, title: "Netflix Original", endUrl: request.fetchNetflixOrigin },
